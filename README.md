@@ -1,5 +1,9 @@
 # NeuroMorph Assessment (NMA)
 
+## Screenshot
+
+![NeuroMorph Assessment Overview](resources/nma_overview.png)
+
 ## Overview
 
 NeuroMorph Assessment (NMA) is an automated structural MRI morphometry
