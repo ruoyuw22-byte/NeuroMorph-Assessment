@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh_CN</string>
+	<key>CFBundleDisplayName</key>
+	<string>NeuroMorph Assessment</string>
+	<key>CFBundleExecutable</key>
+	<string>NMA</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.neuromorph.assessment.lite</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NeuroMorph Assessment</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.11.1</string>
+	<key>CFBundleVersion</key>
+	<string>12</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.0</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>NMA 需要访问您选择的桌面病例目录和 CAT12 结果目录，以读取 MRI/DICOM 并生成报告。</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>NMA 需要访问您选择的病例、CAT12 结果和报告模板目录。</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>NMA 需要访问您主动选择的 Excel、病例或模板文件。</string>
+
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+numpy>=1.24
+nibabel>=5.0
+matplotlib>=3.7
+Pillow>=9.5
+h5py>=3.8
+pandas>=1.5
+openpyxl>=3.1

@@ -1,0 +1,11 @@
+{
+  "matlab": "/Applications/MATLAB_R2022b.app/bin/matlab",
+  "spm": "/Users/<username>/Documents/MATLAB/spm",
+  "cat12": "/Users/<username>/Documents/MATLAB/spm/toolbox/cat12",
+  "patient_root": "/path/to/AllSubjects",
+  "output_root": "/path/to/CAT12_batch_out",
+  "template": "/path/to/report_template.docx",
+  "python": "/path/to/python",
+  "dcm2niix": "/usr/local/bin/dcm2niix",
+  "reuse_existing": true
+}
