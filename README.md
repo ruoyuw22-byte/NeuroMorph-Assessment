@@ -90,6 +90,109 @@ NeuroMorph-Assessment/
 └── README.md
 ```
 
+## Software Requirements
+
+NeuroMorph Assessment requires MATLAB together with SPM12 and CAT12 for
+structural MRI processing.
+
+The software was developed and tested under the following environment:
+
+  Software   Version
+  ---------- ---------
+  MATLAB     R2022b
+  SPM12      SPM12
+  CAT12      CAT12.8
+
+------------------------------------------------------------------------
+
+## MATLAB
+
+MATLAB is required for running SPM12 and CAT12 neuroimaging pipelines.
+
+Recommended version:
+
+``` text
+MATLAB R2022b
+```
+
+Official website:
+
+https://www.mathworks.com/products/matlab.html
+
+------------------------------------------------------------------------
+
+## SPM12
+
+SPM12 (Statistical Parametric Mapping) is a MATLAB-based neuroimaging
+analysis toolbox required by NeuroMorph Assessment.
+
+SPM12 is used for:
+
+-   MRI preprocessing framework
+-   Statistical parametric mapping functions
+-   Integration with CAT12 toolbox
+
+Official download:
+
+https://www.fil.ion.ucl.ac.uk/spm/software/spm12/
+
+After installation, add the SPM12 directory to MATLAB:
+
+``` matlab
+addpath('/path/to/spm12')
+
+spm('Defaults','fMRI')
+spm_jobman('initcfg')
+```
+
+------------------------------------------------------------------------
+
+## CAT12
+
+CAT12 (Computational Anatomy Toolbox 12) is an extension toolbox for
+SPM12.
+
+NeuroMorph Assessment uses CAT12 for:
+
+-   Brain tissue segmentation
+-   Gray matter estimation
+-   White matter estimation
+-   Cerebrospinal fluid estimation
+-   Total intracranial volume (TIV) extraction
+
+Official website:
+
+https://neuro-jena.github.io/cat/
+
+Recommended installation structure:
+
+``` text
+spm12/
+│
+└── toolbox/
+    │
+    └── cat12/
+```
+
+Add CAT12 path in MATLAB:
+
+``` matlab
+addpath('/path/to/spm12')
+addpath('/path/to/spm12/toolbox/cat12')
+```
+
+------------------------------------------------------------------------
+
+## Configuration
+
+Before running NeuroMorph Assessment, please ensure:
+
+1.  MATLAB is correctly installed.
+2.  SPM12 is available in MATLAB path.
+3.  CAT12 is installed under the SPM12 toolbox directory.
+4.  Required paths are correctly configured in the application.
+
+
 ## Installation
 
 Requirements:
